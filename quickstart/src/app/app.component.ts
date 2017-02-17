@@ -5,9 +5,10 @@ import { Component } from '@angular/core';
   template: `
   <topbar></topbar>
   <slider></slider>
-  
- <header></header>
- <h1>Hello {{name}}</h1>
+  <topics></topics>
+  <popular></popular>
+  <signup></signup>
+   <footer></footer>
   `,
 })
 export class AppComponent  { name = 'Angular'; }
